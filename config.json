@@ -21,13 +21,18 @@
     },
     {
       "id": "books",
-      "label": "Reading",
+      "label": "Reading and watching",
       "title": "How baseball got here",
-      "body": "The best books on a century of baseball labor fights.",
+      "body": "The best books and films on a century of baseball labor fights.",
       "cta": "More baseball books",
       "partner": "Amazon",
       "url": "https://www.amazon.com/s?k=baseball+history+books&i=stripbooks&tag=lockoutwatch-20",
       "items": [
+        {
+          "title": "Baseball: A Film by Ken Burns",
+          "note": "The classic documentary series, including The Tenth Inning on the 1994 strike",
+          "url": "https://www.amazon.com/dp/B003S1UNZU?tag=lockoutwatch-20"
+        },
         {
           "title": "The Lords of the Realm",
           "note": "John Helyar's history of owners vs. players, through the 1994 strike",
