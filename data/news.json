@@ -1,8 +1,58 @@
 [
-  {"date": "2026-10-29", "outlet": "Bleacher Report", "headline": "Every key offseason date before the expected lockout", "summary": "Walks the calendar from option deadlines to Opening Day and where a lockout starts to bite.", "url": "https://bleacherreport.com/articles/25521127-everything-know-expected-mlb-lockout-free-agency-and-more-key-offseason-dates"},
-  {"date": "2026-10-29", "outlet": "Sportico", "headline": "Why the coming lockout puts the sport's structure on the table", "summary": "Covers MLB's seven-year proposal, local media centralization and the Olympics side track.", "url": "https://www.sportico.com/leagues/baseball/2026/mlb-labor-fight-lockout-future-salary-cap-cba-1234956712/"},
-  {"date": "2026-10-28", "outlet": "Fox Sports / OutKick", "headline": "Yankees' Levine says he is confident a deal gets done", "summary": "Levine called the public jockeying normal; Steinbrenner backed the owners' cap proposals.", "url": "https://www.foxnews.com/outkick-sports/yankees-president-randy-levine-confident-mlb-avoid-lockout-despite-cap-fight"},
-  {"date": "2026-10-24", "outlet": "CBS Sports", "headline": "What Manfred and the union said at the World Series", "summary": "Manfred argued the small-market matchup strengthens the case for a cap; Meyer said it undercuts it.", "url": "https://www.cbssports.com/mlb/news/what-rob-manfred-mlbpa-said-salary-cap-fight-lockout-2026-world-series/"},
-  {"date": "2026-10-23", "outlet": "AP via ABC News", "headline": "Union chief likens the cap proposal to a nuclear bomb", "summary": "Meyer said every league offer is tied to a cap; Manfred said the union will not take a status-quo deal.", "url": "https://abcnews.com/Sports/wireStory/union-head-calls-mlbs-salary-cap-proposal-nuclear-137526876"},
-  {"date": "2026-10-22", "outlet": "CBS Sports", "headline": "Lockout 101: what a work stoppage would mean", "summary": "Explains the transaction freeze, effects on free agency and the minors, and the 60-game TV clause.", "url": "https://www.cbssports.com/mlb/news/mlb-lockout-logistics-cba-negotiations-free-agency-2027-season/"}
+  {
+    "date": "2026-10-29",
+    "outlet": "Boston Globe",
+    "headline": "How baseball got to the brink of a lockout",
+    "summary": "A primer on the owners' cap push, the union's revenue-sharing asks and what stands in the way of a normal 2027.",
+    "url": "https://www.bostonglobe.com/2026/10/29/sports/mlb-labor-owners-players/"
+  },
+  {
+    "date": "2026-10-29",
+    "outlet": "Forbes",
+    "headline": "The money behind the owners' willingness to risk a lockout",
+    "summary": "Bankers see a cap as a way to close the franchise value gap with the NFL and NBA, even at the cost of games.",
+    "url": "https://www.forbes.com/sites/hanktucker/2026/10/29/the-billion-dollar-reason-mlb-team-owners-are-willing-to-risk-a-lockout/"
+  },
+  {
+    "date": "2026-10-29",
+    "outlet": "Bleacher Report",
+    "headline": "Every key offseason date before the expected lockout",
+    "summary": "Walks the calendar from option deadlines to Opening Day and where a lockout starts to bite.",
+    "url": "https://bleacherreport.com/articles/25521127-everything-know-expected-mlb-lockout-free-agency-and-more-key-offseason-dates"
+  },
+  {
+    "date": "2026-10-29",
+    "outlet": "Sportico",
+    "headline": "Why the coming lockout puts the sport's structure on the table",
+    "summary": "Covers MLB's seven-year proposal, local media centralization and the Olympics side track.",
+    "url": "https://www.sportico.com/leagues/baseball/2026/mlb-labor-fight-lockout-future-salary-cap-cba-1234956712/"
+  },
+  {
+    "date": "2026-10-28",
+    "outlet": "Fox Sports / OutKick",
+    "headline": "Yankees' Levine says he is confident a deal gets done",
+    "summary": "Levine called the public jockeying normal; Steinbrenner backed the owners' cap proposals.",
+    "url": "https://www.foxnews.com/outkick-sports/yankees-president-randy-levine-confident-mlb-avoid-lockout-despite-cap-fight"
+  },
+  {
+    "date": "2026-10-24",
+    "outlet": "CBS Sports",
+    "headline": "What Manfred and the union said at the World Series",
+    "summary": "Manfred argued the small-market matchup strengthens the case for a cap; Meyer said it undercuts it.",
+    "url": "https://www.cbssports.com/mlb/news/what-rob-manfred-mlbpa-said-salary-cap-fight-lockout-2026-world-series/"
+  },
+  {
+    "date": "2026-10-23",
+    "outlet": "AP via ABC News",
+    "headline": "Union chief likens the cap proposal to a nuclear bomb",
+    "summary": "Meyer said every league offer is tied to a cap; Manfred said the union will not take a status-quo deal.",
+    "url": "https://abcnews.com/Sports/wireStory/union-head-calls-mlbs-salary-cap-proposal-nuclear-137526876"
+  },
+  {
+    "date": "2026-10-22",
+    "outlet": "CBS Sports",
+    "headline": "Lockout 101: what a work stoppage would mean",
+    "summary": "Explains the transaction freeze, effects on free agency and the minors, and the 60-game TV clause.",
+    "url": "https://www.cbssports.com/mlb/news/mlb-lockout-logistics-cba-negotiations-free-agency-2027-season/"
+  }
 ]
