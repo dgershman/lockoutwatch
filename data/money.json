@@ -1,0 +1,9 @@
+[
+  {"metric": "payroll", "label": "MLB proposed floor", "side": "MLB", "value": 171.2},
+  {"metric": "payroll", "label": "Current luxury tax threshold", "side": "Current", "value": 244},
+  {"metric": "payroll", "label": "MLB proposed cap", "side": "MLB", "value": 245.3},
+  {"metric": "payroll", "label": "MLBPA proposed tax threshold", "side": "MLBPA", "value": 300},
+  {"metric": "minimum", "label": "Current minimum", "side": "Current", "value": 0.78},
+  {"metric": "minimum", "label": "MLB (2+ years service)", "side": "MLB", "value": 1.0},
+  {"metric": "minimum", "label": "MLBPA", "side": "MLBPA", "value": 1.5}
+]

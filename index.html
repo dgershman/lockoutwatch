@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lockout Watch: MLB lockout tracker and CBA countdown</title>
+  <meta name="description" content="Daily tracker for the 2026-27 baseball labor fight: countdown to the Dec. 1 CBA expiration, lockout status, salary cap proposals, key dates and the latest news.">
+  <link rel="canonical" href="https://lockoutwatch.com/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lockout Watch: is there going to be a baseball lockout?">
+  <meta property="og:description" content="Countdown, status and every proposal in the 2026-27 baseball labor talks, updated daily.">
+  <meta property="og:url" content="https://lockoutwatch.com/">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"Lockout Watch","url":"https://lockoutwatch.com/","description":"Daily tracker for the 2026-27 baseball labor talks and expected lockout."}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="/">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 5.5c3 3 4.5 6.5 4.5 10.5S12 23.5 9 26.5M23 5.5c-3 3-4.5 6.5-4.5 10.5s1.5 7.5 4.5 10.5" fill="none" stroke="#b42318" stroke-width="1.8" stroke-dasharray="2 1.6"/></svg>
+        Lockout Watch
+      </a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#issues">Issues</a>
+        <a href="#calendar">Dates</a>
+        <a href="#timeline">Timeline</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section aria-label="Summary">
+      <p class="kicker">Baseball's 2027-31 labor deal</p>
+      <h1>Lockout Watch</h1>
+      <p class="lede skel" id="headline">Loading the latest status</p>
+      <p class="asof">Updated every morning from news reporting. Last update: <span id="asof"></span></p>
+    </section>
+
+    <section class="tiles" aria-label="Current status">
+      <div class="card">
+        <p class="tile-label">Where things stand</p>
+        <p class="bigword" id="phase"></p>
+        <p class="small" id="phase_detail"></p>
+      </div>
+      <div class="card" id="tile-pre">
+        <p class="tile-label">Countdown</p>
+        <p class="big" id="days"></p>
+        <p class="small">days until the current deal expires at 11:59 p.m. ET on Dec. 1, 2026</p>
+      </div>
+      <div class="card" id="tile-post" hidden>
+        <p class="tile-label">Lockout clock</p>
+        <p class="big" id="lockday"></p>
+        <p class="small">days since the lockout began. The 2021-22 lockout lasted 99 days.</p>
+      </div>
+      <div class="card">
+        <p class="tile-label">Watch level</p>
+        <p class="bigword"><span id="level"></span> <span class="small">of 5</span></p>
+        <div class="meter" id="meter" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+        <p class="small" id="watch_label"></p>
+      </div>
+      <div class="card">
+        <p class="tile-label">Next milestone</p>
+        <p class="bigword" id="next_date"></p>
+        <p class="small" id="next_event"></p>
+      </div>
+    </section>
+
+    <div class="signup" id="signup" hidden>
+      <p><b>Get the lockout update in your inbox.</b> One short email when something changes.</p>
+      <a class="btn" id="signup-link" href="#" target="_blank" rel="noopener">Subscribe free</a>
+    </div>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Latest development</h2>
+        <p class="small" id="latest_date"></p>
+        <p class="latest" id="latest"></p>
+      </div>
+      <div class="card" id="money">
+        <h2>The money gap</h2>
+        <p class="note">2027 payroll lines each side has proposed, in millions. MLB's cap and floor include player benefits, roughly $23M per team.</p>
+        <ul class="legend">
+          <li><i class="sw" style="background:var(--mlb)"></i>MLB (owners)</li>
+          <li><i class="sw" style="background:var(--mlbpa)"></i>MLBPA (players)</li>
+          <li><i class="sw" style="background:var(--neutral)"></i>Current deal</li>
+        </ul>
+        <div class="bars" id="payroll"></div>
+        <h3>Minimum salary</h3>
+        <div class="bars" id="minimum"></div>
+      </div>
+    </section>
+
+    <section class="card" id="issues">
+      <h2>Issue by issue</h2>
+      <p class="note">Each side's latest public position. Nearly every MLB offer is conditioned on the union accepting a salary cap.</p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Issue</th><th>MLB (owners)</th><th>MLBPA (players)</th><th>Gap</th></tr></thead>
+          <tbody id="issues-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-label="While you wait" id="offers-wrap" hidden>
+      <h2 style="margin-bottom:10px">While you wait</h2>
+      <div class="offers" id="offers"></div>
+      <p class="disclose" style="margin-top:10px">Some links are affiliate links. If you buy through them, Lockout Watch may earn a commission at no extra cost to you. <a href="/about.html#disclosure">Learn more</a>.</p>
+    </section>
+
+    <section class="grid" id="calendar">
+      <div class="card">
+        <h2>Road to Opening Day</h2>
+        <p class="note">Dates that matter for free agency, the deadline and the 2027 season.</p>
+        <ol class="list" id="dates"></ol>
+      </div>
+      <div class="card" id="timeline">
+        <h2>Bargaining timeline</h2>
+        <p class="note">Proposals and public moves since talks opened in May, newest first.</p>
+        <div class="filters" role="group" aria-label="Filter by side">
+          <button type="button" data-side="All" aria-pressed="true">All</button>
+          <button type="button" data-side="MLB" aria-pressed="false">MLB</button>
+          <button type="button" data-side="MLBPA" aria-pressed="false">MLBPA</button>
+          <button type="button" data-side="Both" aria-pressed="false">Both</button>
+          <button type="button" data-side="Other" aria-pressed="false">Other</button>
+        </div>
+        <div class="scroll"><ol class="list" id="timeline-list"></ol></div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Every baseball work stoppage</h2>
+        <p class="note">Length in days, first day to last. The next one would be the 10th since 1972.</p>
+        <ul class="legend">
+          <li><i class="sw" style="background:var(--mlb)"></i>Lockout (owners)</li>
+          <li><i class="sw" style="background:var(--mlbpa)"></i>Strike (players)</li>
+        </ul>
+        <div class="bars" id="stoppages"></div>
+      </div>
+      <div class="card" id="coverage">
+        <h2>Latest coverage</h2>
+        <p class="note">Recent reporting, summarized. Follow the link for the full story.</p>
+        <ol class="list" id="news"></ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="links"><a href="/about.html">About</a><a href="/about.html#disclosure">Affiliate disclosure</a><a href="/about.html#privacy">Privacy</a></div>
+      Compiled daily from public reporting, with summaries in our own words and links to every source. The watch level is an editorial read of that reporting on a 1 to 5 scale, not a probability. Lockout Watch is an independent fan site and is not affiliated with Major League Baseball, its clubs or the MLB Players Association.
+    </div>
+  </footer>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>

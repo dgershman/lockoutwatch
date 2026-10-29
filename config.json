@@ -1,0 +1,32 @@
+{
+  "newsletter_url": "",
+  "offers": [
+    {
+      "id": "gear",
+      "label": "Fan gear",
+      "title": "Rep your team through the offseason",
+      "body": "Jerseys, caps and spring training gear for every club.",
+      "cta": "Shop MLB gear",
+      "partner": "Fanatics",
+      "url": ""
+    },
+    {
+      "id": "tickets",
+      "label": "Tickets",
+      "title": "Spring training and Opening Day tickets",
+      "body": "Grab seats now, or keep an eye on prices while talks play out.",
+      "cta": "Find tickets",
+      "partner": "TickPick",
+      "url": ""
+    },
+    {
+      "id": "books",
+      "label": "Reading",
+      "title": "How baseball got here",
+      "body": "Books on the 1994 strike, Marvin Miller and a century of labor fights.",
+      "cta": "Browse books",
+      "partner": "Amazon",
+      "url": ""
+    }
+  ]
+}

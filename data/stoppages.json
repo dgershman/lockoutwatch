@@ -1,0 +1,11 @@
+[
+  {"label": "1972", "type": "Strike", "start": "1972-04-01", "end": "1972-04-13"},
+  {"label": "1973", "type": "Lockout", "start": "1973-02-08", "end": "1973-02-25"},
+  {"label": "1976", "type": "Lockout", "start": "1976-03-01", "end": "1976-03-17"},
+  {"label": "1980", "type": "Strike", "start": "1980-04-01", "end": "1980-04-08"},
+  {"label": "1981", "type": "Strike", "start": "1981-06-12", "end": "1981-07-31"},
+  {"label": "1985", "type": "Strike", "start": "1985-08-06", "end": "1985-08-07"},
+  {"label": "1990", "type": "Lockout", "start": "1990-02-15", "end": "1990-03-18"},
+  {"label": "1994-95", "type": "Strike", "start": "1994-08-12", "end": "1995-03-31"},
+  {"label": "2021-22", "type": "Lockout", "start": "2021-12-02", "end": "2022-03-10"}
+]

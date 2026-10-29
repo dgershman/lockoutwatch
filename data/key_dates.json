@@ -1,0 +1,14 @@
+[
+  {"date": "2026-11-02", "end": "", "event": "Qualifying offers and contract options due", "note": "Five-day window after the World Series closes; free agency opens", "kind": "Offseason", "state": "next"},
+  {"date": "2026-11-09", "end": "2026-11-12", "event": "GM meetings and BBWAA awards week", "note": "Possible rush of moves ahead of a freeze", "kind": "Offseason", "state": "upcoming"},
+  {"date": "2026-11-12", "end": "", "event": "Deadline to accept or reject qualifying offers", "note": "This year's offer is one year at $23.15M", "kind": "Offseason", "state": "upcoming"},
+  {"date": "2026-11-17", "end": "2026-11-19", "event": "Owners meetings", "note": "Owners regroup on their bargaining position", "kind": "Labor", "state": "upcoming"},
+  {"date": "2026-11-20", "end": "", "event": "Non-tender deadline", "note": "Teams decide on arbitration-eligible players", "kind": "Offseason", "state": "upcoming"},
+  {"date": "2026-12-01", "end": "", "event": "CBA expires at 11:59 p.m. ET", "note": "The 2022-26 Basic Agreement ends", "kind": "Labor", "state": "upcoming"},
+  {"date": "2026-12-02", "end": "", "event": "Expected start of lockout", "note": "Transaction freeze; no contact between clubs and 40-man players", "kind": "Labor", "state": "upcoming"},
+  {"date": "2026-12-07", "end": "2026-12-09", "event": "Winter meetings", "note": "Expected to be wiped out by a lockout", "kind": "Offseason", "state": "upcoming"},
+  {"date": "2027-02-09", "end": "", "event": "Spring training workouts begin", "note": "First date a lockout would cost on-field work", "kind": "Season", "state": "upcoming"},
+  {"date": "2027-02-19", "end": "", "event": "Spring training games begin", "note": "Widely seen as the first sign the season is in jeopardy", "kind": "Season", "state": "upcoming"},
+  {"date": "2027-03-24", "end": "", "event": "Opening Day 2027", "note": "Scheduled start of the regular season", "kind": "Season", "state": "upcoming"},
+  {"date": "2027-05-31", "end": "", "event": "Roughly the 60-game mark", "note": "If 60+ games are lost, most national TV deals extend a year to 2029, per The Athletic", "kind": "Season", "state": "upcoming"}
+]
