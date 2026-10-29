@@ -172,6 +172,7 @@
       card.append(el('p', 'tile-label', o.label), el('h2', null, o.title), el('p', 'small', o.body));
       var a = el('a', 'btn', o.cta + (o.partner ? ' at ' + o.partner : ''));
       a.href = safeUrl(o.url); a.target = '_blank'; a.rel = 'sponsored noopener';
+      a.addEventListener('click', function () { if (typeof window.gtag === 'function') window.gtag('event', 'affiliate_click', { partner: o.partner || o.id, offer: o.id }); });
       card.appendChild(a);
       return card;
     }));
