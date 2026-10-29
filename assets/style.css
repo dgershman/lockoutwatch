@@ -124,3 +124,8 @@ footer .links { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 8px; }
 .picks li { display: flex; flex-direction: column; gap: 1px; }
 .picks a { font-weight: 600; }
 .picks span { font-size: 13px; color: var(--muted); }
+
+.xposts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 0 16px; align-items: start; max-height: 44rem; }
+.xposts .twitter-tweet { margin: 8px 0 !important; }
+.xposts blockquote.twitter-tweet { border-left: 3px solid var(--line); margin: 8px 0; padding: 8px 12px; font-size: 14px; }
+.xposts blockquote.twitter-tweet p { margin: 0 0 4px; }

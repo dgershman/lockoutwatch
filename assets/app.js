@@ -192,6 +192,25 @@
     $('offers-wrap').hidden = false;
   }
 
+  function renderXPosts(rows) {
+    var box = $('xposts');
+    var list = rows.filter(function (r) { return safeUrl(r.url); });
+    if (!list.length) { $('insiders').hidden = true; return; }
+    box.replaceChildren.apply(box, list.map(function (r) {
+      var bq = el('blockquote', 'twitter-tweet');
+      bq.setAttribute('data-dnt', 'true');
+      bq.setAttribute('data-conversation', 'none');
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) bq.setAttribute('data-theme', 'dark');
+      var p = el('p', null, r.label + ' (' + r.who + ', ' + fmtDate(r.date) + ')');
+      var a = el('a', null, 'View on X'); a.href = safeUrl(r.url.replace('https://x.com/', 'https://twitter.com/'));
+      bq.append(p, a);
+      return bq;
+    }));
+    var s = document.createElement('script');
+    s.src = 'https://platform.twitter.com/widgets.js'; s.async = true; s.charset = 'utf-8';
+    document.body.appendChild(s);
+  }
+
   function fail(id) { var n = $(id); if (n) { n.classList.remove('skel'); n.textContent = 'Could not load this section. Try refreshing.'; } }
 
   load('status').then(renderStatus).catch(function () { fail('headline'); });
@@ -200,6 +219,7 @@
   load('key_dates').then(renderDates).catch(function () { fail('dates'); });
   load('timeline').then(function (r) { timelineRows = r; renderTimeline(); }).catch(function () { fail('timeline-list'); });
   load('stoppages').then(renderStoppages).catch(function () { fail('stoppages'); });
+  load('xposts').then(renderXPosts).catch(function () { $('insiders').hidden = true; });
   load('news').then(renderNews).catch(function () { fail('news'); });
   fetch('/config.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(renderConfig).catch(function () {});
 })();
