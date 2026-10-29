@@ -170,6 +170,19 @@
     box.replaceChildren.apply(box, offers.map(function (o) {
       var card = el('div', 'card offer');
       card.append(el('p', 'tile-label', o.label), el('h2', null, o.title), el('p', 'small', o.body));
+      var items = (o.items || []).filter(function (it) { return safeUrl(it.url); });
+      if (items.length) {
+        var ul = el('ul', 'picks');
+        items.forEach(function (it) {
+          var li = el('li');
+          var link = el('a', null, it.title);
+          link.href = safeUrl(it.url); link.target = '_blank'; link.rel = 'sponsored noopener';
+          link.addEventListener('click', function () { if (typeof window.gtag === 'function') window.gtag('event', 'affiliate_click', { partner: o.partner || o.id, offer: o.id, item: it.title }); });
+          li.append(link, el('span', null, it.note));
+          ul.appendChild(li);
+        });
+        card.appendChild(ul);
+      }
       var a = el('a', 'btn', o.cta + (o.partner ? ' at ' + o.partner : ''));
       a.href = safeUrl(o.url); a.target = '_blank'; a.rel = 'sponsored noopener';
       a.addEventListener('click', function () { if (typeof window.gtag === 'function') window.gtag('event', 'affiliate_click', { partner: o.partner || o.id, offer: o.id }); });

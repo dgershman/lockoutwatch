@@ -23,10 +23,32 @@
       "id": "books",
       "label": "Reading",
       "title": "How baseball got here",
-      "body": "Books on the 1994 strike, Marvin Miller and a century of labor fights.",
-      "cta": "Browse books",
+      "body": "The best books on a century of baseball labor fights.",
+      "cta": "More baseball books",
       "partner": "Amazon",
-      "url": ""
+      "url": "https://www.amazon.com/s?k=baseball+history+books&i=stripbooks&tag=lockoutwatch-20",
+      "items": [
+        {
+          "title": "The Lords of the Realm",
+          "note": "John Helyar's history of owners vs. players, through the 1994 strike",
+          "url": "https://www.amazon.com/dp/0345465245?tag=lockoutwatch-20"
+        },
+        {
+          "title": "A Whole Different Ball Game",
+          "note": "Marvin Miller on building the players' union",
+          "url": "https://www.amazon.com/dp/1559720670?tag=lockoutwatch-20"
+        },
+        {
+          "title": "A Well-Paid Slave",
+          "note": "Brad Snyder on Curt Flood's fight for free agency",
+          "url": "https://www.amazon.com/dp/0452288916?tag=lockoutwatch-20"
+        },
+        {
+          "title": "Moneyball",
+          "note": "Michael Lewis on how a low-payroll team competed",
+          "url": "https://www.amazon.com/dp/0393324818?tag=lockoutwatch-20"
+        }
+      ]
     }
   ]
 }
