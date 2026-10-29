@@ -112,3 +112,10 @@ footer .links { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 8px; }
 .prose h2 { margin-top: 24px; }
 .skel { color: transparent; background: var(--line); border-radius: 6px; min-height: 1em; }
 [hidden] { display: none !important; }
+
+.topright { display: flex; align-items: center; gap: 18px; }
+.topbar .btn { white-space: nowrap; }
+@media (max-width: 640px) {
+  .topright .nav { display: none; }
+  .topbar .btn { padding: 7px 12px; font-size: 13px; }
+}
