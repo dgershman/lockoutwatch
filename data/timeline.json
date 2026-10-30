@@ -1,19 +1,146 @@
 [
-  {"date": "2026-10-28", "side": "Other", "title": "Brewers win the World Series; offseason begins", "detail": "Milwaukee beat Tampa Bay in Game 5. Yankees president Randy Levine said he is confident both sides want a deal before Dec. 1.", "source": "Fox Sports / OutKick", "url": "https://www.foxnews.com/outkick-sports/yankees-president-randy-levine-confident-mlb-avoid-lockout-despite-cap-fight"},
-  {"date": "2026-10-23", "side": "Both", "title": "Dueling press sessions before World Series Game 1", "detail": "MLBPA's Bruce Meyer called the cap proposal a nuclear bomb and said no extension has been discussed. Manfred cited unprecedented owner unity and fan polling behind a cap.", "source": "AP via ABC News", "url": "https://abcnews.com/Sports/wireStory/union-head-calls-mlbs-salary-cap-proposal-nuclear-137526876"},
-  {"date": "2026-10-08", "side": "MLB", "title": "MLB proposes a 154-game season", "detail": "Also a best-of-seven Division Series and a weekly off day, as part of a seven-year deal. All contingent on a salary cap; the union said it was reviewing.", "source": "Forbes", "url": "https://www.forbes.com/sites/maurybrown/2026/10/08/mlb-proposes-154-game-regular-season-expanded-lds-games-tied-to-salary-cap/"},
-  {"date": "2026-10-01", "side": "MLB", "title": "League sends clubs a 34-page lockout memo", "detail": "Guidance on operating during a lockout, including a ban on contact with players. Reported by The Athletic on Oct. 7.", "source": "Yahoo Sports", "url": "https://sports.yahoo.com/mlb/article/mlb-sends-memo-to-owners-executives-outlining-how-they-should-act-operate-during-looming-lockout-131317102.html"},
-  {"date": "2026-09-25", "side": "Other", "title": "The 60-game TV clause comes to light", "detail": "If a stoppage costs 60 or more games, most national broadcast deals extend through 2029, delaying MLB's planned media reset.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-09-02", "side": "MLBPA", "title": "Player survey shows broad opposition to a cap", "detail": "An anonymous ESPN poll of players found most firmly against a cap, with a minority open to discussion.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-08-27", "side": "MLB", "title": "MLB proposes roster rule changes", "detail": "Weekly rosters, a 14-pitcher limit and offseason free-agent quiet periods, all tied to a cap. The union objected to the quiet periods.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-07-21", "side": "MLBPA", "title": "Union counters on the draft", "detail": "Keep 20 rounds and high school eligibility, raise bonus pools, allow pick trading and move the draft back to June.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-07-14", "side": "Both", "title": "All-Star Game sparring", "detail": "Manfred said owners are more united than at any point in his tenure; Meyer accused the league of telling fans the product is broken.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-07-01", "side": "MLBPA", "title": "Union proposes roster and health changes", "detail": "28-man rosters for the first 15 days, fewer option moves, and player access to club performance data.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-06-25", "side": "MLB", "title": "MLB proposes contract limits", "detail": "Max five years and $202M for players changing teams, six years and $265M to stay. Minimum salary to $900K-$1M, earlier free agency and no qualifying offer, all tied to a cap.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-06-18", "side": "MLB", "title": "MLB proposes a draft overhaul", "detail": "Cut the draft to 12 rounds with a $200M hard bonus system, bar high schoolers, and add an international draft.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-06-05", "side": "Other", "title": "President Trump backs a salary cap", "detail": "He publicly supported MLB's push; Manfred later said he would pass on outside help.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-06-01", "side": "MLBPA", "title": "Union calls the cap institutionalized collusion", "detail": "Meyer estimated players would have lost over half a billion dollars in 2026 under MLB's plan.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-05-28", "side": "MLB", "title": "MLB's opening proposal: a hard cap", "detail": "A $245.3M cap and $171.2M floor for 2027, a 50/50 revenue split, escrow, and equal sharing of all local revenues.", "source": "MLB.com", "url": "https://www.mlb.com/news/mlb-commissioner-rob-manfred-on-initial-cba-proposals"},
-  {"date": "2026-05-27", "side": "MLBPA", "title": "Union's opening proposal", "detail": "Minimum salary to $1.5M, luxury tax threshold to $300M, free agency after five years for players 30+, end the qualifying offer.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"},
-  {"date": "2026-05-12", "side": "Both", "title": "Formal bargaining begins", "detail": "Talks open on a deal to cover the 2027-31 seasons.", "source": "CBS Sports", "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"}
+  {
+    "date": "2026-10-29",
+    "side": "Other",
+    "title": "Free agency opens with 144 players",
+    "detail": "The offseason window began with a lockout expected after Dec. 1. AP reported a possible pre-lockout spending rush and no scheduled bargaining sessions.",
+    "source": "AP via NY1",
+    "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/29/mlbs-2027-season-threatened-with-lockout-looming-when-labor-deal-expires-dec-1"
+  },
+  {
+    "date": "2026-10-28",
+    "side": "Other",
+    "title": "Brewers win the World Series; offseason begins",
+    "detail": "Milwaukee beat Tampa Bay in Game 5. Yankees president Randy Levine said he is confident both sides want a deal before Dec. 1.",
+    "source": "Fox Sports / OutKick",
+    "url": "https://www.foxnews.com/outkick-sports/yankees-president-randy-levine-confident-mlb-avoid-lockout-despite-cap-fight"
+  },
+  {
+    "date": "2026-10-23",
+    "side": "Both",
+    "title": "Dueling press sessions before World Series Game 1",
+    "detail": "MLBPA's Bruce Meyer called the cap proposal a nuclear bomb and said no extension has been discussed. Manfred cited unprecedented owner unity and fan polling behind a cap.",
+    "source": "AP via ABC News",
+    "url": "https://abcnews.com/Sports/wireStory/union-head-calls-mlbs-salary-cap-proposal-nuclear-137526876"
+  },
+  {
+    "date": "2026-10-08",
+    "side": "MLB",
+    "title": "MLB proposes a 154-game season",
+    "detail": "Also a best-of-seven Division Series and a weekly off day, as part of a seven-year deal. All contingent on a salary cap; the union said it was reviewing.",
+    "source": "Forbes",
+    "url": "https://www.forbes.com/sites/maurybrown/2026/10/08/mlb-proposes-154-game-regular-season-expanded-lds-games-tied-to-salary-cap/"
+  },
+  {
+    "date": "2026-10-01",
+    "side": "MLB",
+    "title": "League sends clubs a 34-page lockout memo",
+    "detail": "Guidance on operating during a lockout, including a ban on contact with players. Reported by The Athletic on Oct. 7.",
+    "source": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/mlb/article/mlb-sends-memo-to-owners-executives-outlining-how-they-should-act-operate-during-looming-lockout-131317102.html"
+  },
+  {
+    "date": "2026-09-25",
+    "side": "Other",
+    "title": "The 60-game TV clause comes to light",
+    "detail": "If a stoppage costs 60 or more games, most national broadcast deals extend through 2029, delaying MLB's planned media reset.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-09-02",
+    "side": "MLBPA",
+    "title": "Player survey shows broad opposition to a cap",
+    "detail": "An anonymous ESPN poll of players found most firmly against a cap, with a minority open to discussion.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-08-27",
+    "side": "MLB",
+    "title": "MLB proposes roster rule changes",
+    "detail": "Weekly rosters, a 14-pitcher limit and offseason free-agent quiet periods, all tied to a cap. The union objected to the quiet periods.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-07-21",
+    "side": "MLBPA",
+    "title": "Union counters on the draft",
+    "detail": "Keep 20 rounds and high school eligibility, raise bonus pools, allow pick trading and move the draft back to June.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-07-14",
+    "side": "Both",
+    "title": "All-Star Game sparring",
+    "detail": "Manfred said owners are more united than at any point in his tenure; Meyer accused the league of telling fans the product is broken.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-07-01",
+    "side": "MLBPA",
+    "title": "Union proposes roster and health changes",
+    "detail": "28-man rosters for the first 15 days, fewer option moves, and player access to club performance data.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-06-25",
+    "side": "MLB",
+    "title": "MLB proposes contract limits",
+    "detail": "Max five years and $202M for players changing teams, six years and $265M to stay. Minimum salary to $900K-$1M, earlier free agency and no qualifying offer, all tied to a cap.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-06-18",
+    "side": "MLB",
+    "title": "MLB proposes a draft overhaul",
+    "detail": "Cut the draft to 12 rounds with a $200M hard bonus system, bar high schoolers, and add an international draft.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-06-05",
+    "side": "Other",
+    "title": "President Trump backs a salary cap",
+    "detail": "He publicly supported MLB's push; Manfred later said he would pass on outside help.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-06-01",
+    "side": "MLBPA",
+    "title": "Union calls the cap institutionalized collusion",
+    "detail": "Meyer estimated players would have lost over half a billion dollars in 2026 under MLB's plan.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-05-28",
+    "side": "MLB",
+    "title": "MLB's opening proposal: a hard cap",
+    "detail": "A $245.3M cap and $171.2M floor for 2027, a 50/50 revenue split, escrow, and equal sharing of all local revenues.",
+    "source": "MLB.com",
+    "url": "https://www.mlb.com/news/mlb-commissioner-rob-manfred-on-initial-cba-proposals"
+  },
+  {
+    "date": "2026-05-27",
+    "side": "MLBPA",
+    "title": "Union's opening proposal",
+    "detail": "Minimum salary to $1.5M, luxury tax threshold to $300M, free agency after five years for players 30+, end the qualifying offer.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  },
+  {
+    "date": "2026-05-12",
+    "side": "Both",
+    "title": "Formal bargaining begins",
+    "detail": "Talks open on a deal to cover the 2027-31 seasons.",
+    "source": "CBS Sports",
+    "url": "https://www.cbssports.com/mlb/news/mlb-cba-negotiations-timeline-2026/"
+  }
 ]

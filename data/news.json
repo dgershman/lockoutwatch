@@ -1,6 +1,13 @@
 [
   {
     "date": "2026-10-29",
+    "outlet": "AP via NY1",
+    "headline": "2027 season threatened as the labor deal nears its Dec. 1 end",
+    "summary": "Recaps both proposals, notes 144 new free agents and a possible spending rush before an expected lockout.",
+    "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/29/mlbs-2027-season-threatened-with-lockout-looming-when-labor-deal-expires-dec-1"
+  },
+  {
+    "date": "2026-10-29",
     "outlet": "Boston Globe",
     "headline": "How baseball got to the brink of a lockout",
     "summary": "A primer on the owners' cap push, the union's revenue-sharing asks and what stands in the way of a normal 2027.",
@@ -47,12 +54,5 @@
     "headline": "Union chief likens the cap proposal to a nuclear bomb",
     "summary": "Meyer said every league offer is tied to a cap; Manfred said the union will not take a status-quo deal.",
     "url": "https://abcnews.com/Sports/wireStory/union-head-calls-mlbs-salary-cap-proposal-nuclear-137526876"
-  },
-  {
-    "date": "2026-10-22",
-    "outlet": "CBS Sports",
-    "headline": "Lockout 101: what a work stoppage would mean",
-    "summary": "Explains the transaction freeze, effects on free agency and the minors, and the 60-game TV clause.",
-    "url": "https://www.cbssports.com/mlb/news/mlb-lockout-logistics-cba-negotiations-free-agency-2027-season/"
   }
 ]

@@ -1,16 +1,16 @@
 [
   {
-    "as_of": "2026-10-29",
+    "as_of": "2026-10-30",
     "phase": "Negotiating",
     "phase_detail": "CBA still in force; owners expected to lock out players when it expires",
     "headline": "The World Series is over and the sides remain far apart on a salary cap, so a lockout on Dec. 2 is widely expected.",
     "watch_level": 4,
     "watch_label": "Lockout very likely",
-    "days_until_expiry": 33,
+    "days_until_expiry": 32,
     "lockout_day": null,
     "cba_expires": "2026-12-01",
-    "latest_date": "2026-10-28",
-    "latest": "Brewers won the World Series in Game 5, starting the offseason. Yankees president Randy Levine said he is confident both sides want a deal before Dec. 1, while the union again rejected any cap.",
+    "latest_date": "2026-10-29",
+    "latest": "Free agency opened Thursday with 144 players available, and AP reported no bargaining sessions are scheduled. Manfred said he is not a deadline bargainer, while a pre-lockout spending rush is possible.",
     "next_milestone": "Qualifying offer and contract option deadline",
     "next_milestone_date": "2026-11-02"
   }

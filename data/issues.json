@@ -1,10 +1,50 @@
 [
-  {"issue": "Salary cap and floor", "mlb": "Hard cap of $245.3M and floor of $171.2M in 2027, 50/50 revenue split, escrow", "mlbpa": "No cap in any form; raise the luxury tax threshold to $300M", "gap": "Wide"},
-  {"issue": "Revenue sharing", "mlb": "Pool and share all local revenues equally", "mlbpa": "Share more local broadcast money; guarantee small-market clubs at least $240M", "gap": "Some overlap"},
-  {"issue": "Minimum salary", "mlb": "$900K (under 2 years) or $1M (2+ years), only with a cap", "mlbpa": "$1.5M", "gap": "Moderate"},
-  {"issue": "Free agency", "mlb": "Five years for players 30+ and no qualifying offer, but contracts capped at 5 yrs/$202M", "mlbpa": "Five years for players 30+, no qualifying offer, no contract limits", "gap": "Some overlap"},
-  {"issue": "Amateur draft", "mlb": "12 rounds, $200M hard slotting, no high schoolers, international draft", "mlbpa": "Keep 20 rounds and high school eligibility; more bonus money", "gap": "Wide"},
-  {"issue": "Schedule and postseason", "mlb": "154 games, best-of-seven Division Series, only with a cap", "mlbpa": "Reviewing; no public counter", "gap": "Open"},
-  {"issue": "Roster rules", "mlb": "Weekly rosters, 14 pitchers, offseason signing quiet periods", "mlbpa": "28-man rosters early in the season, fewer options; opposes quiet periods", "gap": "Moderate"},
-  {"issue": "2028 Olympics", "mlb": "Wants MLB players in Los Angeles; schedule work starts in January", "mlbpa": "Interested, on a separate track; a long fight could affect it", "gap": "Some overlap"}
+  {
+    "issue": "Salary cap and floor",
+    "mlb": "Hard cap of $245.3M and floor of $171.2M in 2027, no player above 15% of team payroll, 50/50 revenue split, escrow",
+    "mlbpa": "No cap in any form; raise the luxury tax threshold to $300M",
+    "gap": "Wide"
+  },
+  {
+    "issue": "Revenue sharing",
+    "mlb": "Pool and share all local revenues equally",
+    "mlbpa": "Share more local broadcast money; guarantee small-market clubs at least $240M",
+    "gap": "Some overlap"
+  },
+  {
+    "issue": "Minimum salary",
+    "mlb": "$900K (under 2 years) or $1M (2+ years), only with a cap",
+    "mlbpa": "$1.5M",
+    "gap": "Moderate"
+  },
+  {
+    "issue": "Free agency",
+    "mlb": "Five years for players 30+ and no qualifying offer, but contracts capped at 5 yrs/$202M",
+    "mlbpa": "Five years for players 30+, no qualifying offer, no contract limits",
+    "gap": "Some overlap"
+  },
+  {
+    "issue": "Amateur draft",
+    "mlb": "12 rounds, $200M hard slotting, no high schoolers, international draft",
+    "mlbpa": "Keep 20 rounds and high school eligibility; more bonus money",
+    "gap": "Wide"
+  },
+  {
+    "issue": "Schedule and postseason",
+    "mlb": "154 games, best-of-seven Division Series, only with a cap",
+    "mlbpa": "Reviewing; no public counter",
+    "gap": "Open"
+  },
+  {
+    "issue": "Roster rules",
+    "mlb": "Weekly rosters, 14 pitchers, offseason signing quiet periods",
+    "mlbpa": "28-man rosters early in the season, fewer options; opposes quiet periods",
+    "gap": "Moderate"
+  },
+  {
+    "issue": "2028 Olympics",
+    "mlb": "Wants MLB players in Los Angeles; schedule work starts in January",
+    "mlbpa": "Interested, on a separate track; a long fight could affect it",
+    "gap": "Some overlap"
+  }
 ]
