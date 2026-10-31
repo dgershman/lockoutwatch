@@ -1,12 +1,12 @@
 [
   {
-    "as_of": "2026-10-30",
+    "as_of": "2026-10-31",
     "phase": "Negotiating",
     "phase_detail": "CBA still in force; owners expected to lock out players when it expires",
     "headline": "The World Series is over and the sides remain far apart on a salary cap, so a lockout on Dec. 2 is widely expected.",
     "watch_level": 4,
     "watch_label": "Lockout very likely",
-    "days_until_expiry": 32,
+    "days_until_expiry": 31,
     "lockout_day": null,
     "cba_expires": "2026-12-01",
     "latest_date": "2026-10-29",
