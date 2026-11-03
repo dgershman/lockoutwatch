@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-11-02",
+    "outlet": "ESPN",
+    "headline": "Bednar, Suzuki, Arozarena among eight players to receive qualifying offers",
+    "summary": "Eight free agents got $23.15M offers with an Nov. 17 decision deadline, as a lockout is expected after Dec. 1.",
+    "url": "https://www.espn.com/mlb/story/_/id/50361243/mlb-qualifying-offers-bednar-suzuki-arozarena-more"
+  },
+  {
     "date": "2026-10-29",
     "outlet": "AP via NY1",
     "headline": "2027 season threatened as the labor deal nears its Dec. 1 end",
@@ -47,12 +54,5 @@
     "headline": "What Manfred and the union said at the World Series",
     "summary": "Manfred argued the small-market matchup strengthens the case for a cap; Meyer said it undercuts it.",
     "url": "https://www.cbssports.com/mlb/news/what-rob-manfred-mlbpa-said-salary-cap-fight-lockout-2026-world-series/"
-  },
-  {
-    "date": "2026-10-23",
-    "outlet": "AP via ABC News",
-    "headline": "Union chief likens the cap proposal to a nuclear bomb",
-    "summary": "Meyer said every league offer is tied to a cap; Manfred said the union will not take a status-quo deal.",
-    "url": "https://abcnews.com/Sports/wireStory/union-head-calls-mlbs-salary-cap-proposal-nuclear-137526876"
   }
 ]

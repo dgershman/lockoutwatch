@@ -5,7 +5,7 @@
     "event": "Qualifying offers and contract options due",
     "note": "Teams' deadline to extend offers; free agency opens at 5 p.m. ET",
     "kind": "Offseason",
-    "state": "next"
+    "state": "done"
   },
   {
     "date": "2026-11-10",
@@ -13,7 +13,7 @@
     "event": "GM meetings and BBWAA awards week",
     "note": "Possible rush of moves ahead of a freeze",
     "kind": "Offseason",
-    "state": "upcoming"
+    "state": "next"
   },
   {
     "date": "2026-11-17",

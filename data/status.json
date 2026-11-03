@@ -1,17 +1,17 @@
 [
   {
-    "as_of": "2026-11-02",
+    "as_of": "2026-11-03",
     "phase": "Negotiating",
     "phase_detail": "CBA still in force; owners expected to lock out players when it expires",
     "headline": "The World Series is over and the sides remain far apart on a salary cap, so a lockout on Dec. 2 is widely expected.",
     "watch_level": 4,
     "watch_label": "Lockout very likely",
-    "days_until_expiry": 29,
+    "days_until_expiry": 28,
     "lockout_day": null,
     "cba_expires": "2026-12-01",
     "latest_date": "2026-11-02",
-    "latest": "Free agency opened with no bargaining sessions scheduled, and the sides remain apart on the owners' salary cap proposal. Clubs face the qualifying offer deadline today, before any lockout.",
-    "next_milestone": "Qualifying offer and contract option deadline",
-    "next_milestone_date": "2026-11-02"
+    "latest": "Eight players received $23.15M qualifying offers as free agency opened, and no bargaining sessions have been reported. A lockout is still widely expected after the CBA expires Dec. 1.",
+    "next_milestone": "GM meetings and awards week",
+    "next_milestone_date": "2026-11-10"
   }
 ]
