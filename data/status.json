@@ -1,16 +1,16 @@
 [
   {
-    "as_of": "2026-11-05",
+    "as_of": "2026-11-06",
     "phase": "Negotiating",
     "phase_detail": "CBA still in force; owners expected to lock out players when it expires",
-    "headline": "The World Series is over and the sides remain far apart on a salary cap, so a lockout on Dec. 2 is widely expected.",
+    "headline": "Owners tabled a revised hard cap starting in 2028, the union rejected it, and a lockout after Dec. 1 is still widely expected.",
     "watch_level": 4,
     "watch_label": "Lockout very likely",
-    "days_until_expiry": 26,
+    "days_until_expiry": 25,
     "lockout_day": null,
     "cba_expires": "2026-12-01",
-    "latest_date": "2026-11-02",
-    "latest": "Eight players received $23.15M qualifying offers as free agency opened, and no bargaining sessions have been reported. A lockout is still widely expected after the CBA expires Dec. 1.",
+    "latest_date": "2026-11-03",
+    "latest": "MLB delivered a revised proposal on Nov. 3 that delays the hard cap to 2028 and sets it at $258.2M with a $180.2M floor. The union said it would still blow up the current system and no bargaining sessions have been reported.",
     "next_milestone": "GM meetings and awards week",
     "next_milestone_date": "2026-11-10"
   }

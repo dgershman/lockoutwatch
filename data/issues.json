@@ -1,7 +1,7 @@
 [
   {
     "issue": "Salary cap and floor",
-    "mlb": "Hard cap of $245.3M and floor of $171.2M in 2027, no player above 15% of team payroll, 50/50 revenue split, escrow",
+    "mlb": "Hard cap of $258.2M and floor of $180.2M starting in 2028 (2027 keeps current tax rules), 50/50 revenue split, escrow",
     "mlbpa": "No cap in any form; raise the luxury tax threshold to $300M",
     "gap": "Wide"
   },
@@ -13,7 +13,7 @@
   },
   {
     "issue": "Minimum salary",
-    "mlb": "$900K (under 2 years) or $1M (2+ years), only with a cap",
+    "mlb": "$900K (under 2 years) or $1M (2+ years), tied to a cap",
     "mlbpa": "$1.5M",
     "gap": "Moderate"
   },
