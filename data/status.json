@@ -1,12 +1,12 @@
 [
   {
-    "as_of": "2026-11-07",
+    "as_of": "2026-11-08",
     "phase": "Negotiating",
     "phase_detail": "CBA still in force; owners expected to lock out players when it expires",
     "headline": "Owners tabled a revised hard cap starting in 2028, the union rejected it, and a lockout after Dec. 1 is still widely expected.",
     "watch_level": 4,
     "watch_label": "Lockout very likely",
-    "days_until_expiry": 24,
+    "days_until_expiry": 23,
     "lockout_day": null,
     "cba_expires": "2026-12-01",
     "latest_date": "2026-11-03",
