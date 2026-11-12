@@ -13,7 +13,7 @@
     "event": "GM meetings and BBWAA awards week",
     "note": "Possible rush of moves ahead of a freeze",
     "kind": "Offseason",
-    "state": "next"
+    "state": "done"
   },
   {
     "date": "2026-11-17",
@@ -29,7 +29,7 @@
     "event": "Owners meetings",
     "note": "Owners regroup on their bargaining position",
     "kind": "Labor",
-    "state": "upcoming"
+    "state": "next"
   },
   {
     "date": "2026-11-20",

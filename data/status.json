@@ -1,17 +1,17 @@
 [
   {
-    "as_of": "2026-11-11",
+    "as_of": "2026-11-12",
     "phase": "Negotiating",
     "phase_detail": "CBA still in force; owners expected to lock out players when it expires",
     "headline": "Owners tabled a revised hard cap starting in 2028, the union rejected it, and a lockout after Dec. 1 is still widely expected.",
     "watch_level": 4,
     "watch_label": "Lockout very likely",
-    "days_until_expiry": 20,
+    "days_until_expiry": 19,
     "lockout_day": null,
     "cba_expires": "2026-12-01",
     "latest_date": "2026-11-03",
     "latest": "MLB delivered a revised proposal on Nov. 3 that delays the hard cap to 2028 and sets it at $258.2M with a $180.2M floor. The union said it would still blow up the current system and no bargaining sessions have been reported.",
-    "next_milestone": "GM meetings and awards week",
-    "next_milestone_date": "2026-11-10"
+    "next_milestone": "Owners meetings and qualifying offer deadline",
+    "next_milestone_date": "2026-11-17"
   }
 ]
