@@ -1,16 +1,16 @@
 [
   {
-    "as_of": "2026-11-16",
+    "as_of": "2026-11-17",
     "phase": "Negotiating",
     "phase_detail": "CBA still in force; owners expected to lock out players when it expires",
     "headline": "Owners tabled a revised hard cap starting in 2028, the union rejected it, and a lockout after Dec. 1 is still widely expected.",
     "watch_level": 4,
     "watch_label": "Lockout very likely",
-    "days_until_expiry": 15,
+    "days_until_expiry": 14,
     "lockout_day": null,
     "cba_expires": "2026-12-01",
-    "latest_date": "2026-11-12",
-    "latest": "The Wall Street Journal reported that MLB has prepared for a possible union move to disclaim interest during a lockout, which would end the MLBPA's role as bargaining agent. No bargaining sessions or new proposals have been reported.",
+    "latest_date": "2026-11-17",
+    "latest": "Owners opened three days of meetings to plan labor strategy and lockout readiness, with a lockout still widely expected Dec. 2. No bargaining sessions or new proposals have been reported.",
     "next_milestone": "Owners meetings and qualifying offer deadline",
     "next_milestone_date": "2026-11-17"
   }

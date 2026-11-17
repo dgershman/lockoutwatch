@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-11-17",
+    "outlet": "Yahoo Sports",
+    "headline": "MLB owners prepare for major move as lockout countdown enters final days",
+    "summary": "Owners meet Nov. 17-19 on labor strategy, with a lockout expected Dec. 2; the union rejects the 2028 cap offer and wants a $1.5M minimum.",
+    "url": "https://sports.yahoo.com/articles/mlb-owners-prepare-major-move-010957372.html"
+  },
+  {
     "date": "2026-11-12",
     "outlet": "MLB Trade Rumors",
     "headline": "MLB preparing for possible MLBPA disclaimer of interest",
@@ -47,12 +54,5 @@
     "headline": "Every key offseason date before the expected lockout",
     "summary": "Walks the calendar from option deadlines to Opening Day and where a lockout starts to bite.",
     "url": "https://bleacherreport.com/articles/25521127-everything-know-expected-mlb-lockout-free-agency-and-more-key-offseason-dates"
-  },
-  {
-    "date": "2026-10-29",
-    "outlet": "Sportico",
-    "headline": "Why the coming lockout puts the sport's structure on the table",
-    "summary": "Covers MLB's seven-year proposal, local media centralization and the Olympics side track.",
-    "url": "https://www.sportico.com/leagues/baseball/2026/mlb-labor-fight-lockout-future-salary-cap-cba-1234956712/"
   }
 ]
