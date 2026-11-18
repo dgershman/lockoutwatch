@@ -1,6 +1,13 @@
 [
   {
     "date": "2026-11-17",
+    "outlet": "Boston Globe via RAW CHILI",
+    "headline": "Union head Meyer accuses MLB of talking out of both sides of its mouth",
+    "summary": "Meyer says the league has held firm on a cap since May, disputes the 50-50 revenue pitch and points to progress only on non-economic topics.",
+    "url": "https://www.rawchili.com/5154088/"
+  },
+  {
+    "date": "2026-11-17",
     "outlet": "Yahoo Sports",
     "headline": "MLB owners prepare for major move as lockout countdown enters final days",
     "summary": "Owners meet Nov. 17-19 on labor strategy, with a lockout expected Dec. 2; the union rejects the 2028 cap offer and wants a $1.5M minimum.",
@@ -47,12 +54,5 @@
     "headline": "The money behind the owners' willingness to risk a lockout",
     "summary": "Bankers see a cap as a way to close the franchise value gap with the NFL and NBA, even at the cost of games.",
     "url": "https://www.forbes.com/sites/hanktucker/2026/10/29/the-billion-dollar-reason-mlb-team-owners-are-willing-to-risk-a-lockout/"
-  },
-  {
-    "date": "2026-10-29",
-    "outlet": "Bleacher Report",
-    "headline": "Every key offseason date before the expected lockout",
-    "summary": "Walks the calendar from option deadlines to Opening Day and where a lockout starts to bite.",
-    "url": "https://bleacherreport.com/articles/25521127-everything-know-expected-mlb-lockout-free-agency-and-more-key-offseason-dates"
   }
 ]

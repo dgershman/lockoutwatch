@@ -1,17 +1,17 @@
 [
   {
-    "as_of": "2026-11-17",
+    "as_of": "2026-11-18",
     "phase": "Negotiating",
     "phase_detail": "CBA still in force; owners expected to lock out players when it expires",
     "headline": "Owners tabled a revised hard cap starting in 2028, the union rejected it, and a lockout after Dec. 1 is still widely expected.",
     "watch_level": 4,
     "watch_label": "Lockout very likely",
-    "days_until_expiry": 14,
+    "days_until_expiry": 13,
     "lockout_day": null,
     "cba_expires": "2026-12-01",
     "latest_date": "2026-11-17",
-    "latest": "Owners opened three days of meetings to plan labor strategy and lockout readiness, with a lockout still widely expected Dec. 2. No bargaining sessions or new proposals have been reported.",
-    "next_milestone": "Owners meetings and qualifying offer deadline",
-    "next_milestone_date": "2026-11-17"
+    "latest": "Union head Bruce Meyer said MLB has refused to discuss economics beyond a salary cap, calling the months of talks wasted, while owners continue three days of meetings in New York. Commissioner Rob Manfred is due to assess the talks Wednesday.",
+    "next_milestone": "Owners meetings end; Manfred assesses talks",
+    "next_milestone_date": "2026-11-19"
   }
 ]
