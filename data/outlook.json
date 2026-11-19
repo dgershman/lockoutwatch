@@ -1,0 +1,95 @@
+{
+  "as_of": "2026-11-19",
+  "updated_reason": "Manfred said owners will not compromise on a cap and floor, and the union called that stance unserious. With no sessions scheduled and both sides dug in on the core system, the odds tilt toward a stoppage that reaches the regular season.",
+  "summary": "Both sides have already moved toward each other on free agency, the qualifying offer and the minimum salary. The fight is over the system itself: owners say a cap and floor is non-negotiable, and players say any cap is a non-starter. A deal most likely needs a structure that gives owners spending limits in practice without the word cap.",
+  "common_ground": [
+    "Scrap the qualifying offer (both sides have proposed it)",
+    "Free agency after five years of service for players 30 and older (both sides)",
+    "A higher minimum salary (MLB offers $900K to $1M, the union wants $1.5M)",
+    "More revenue sharing between clubs (both sides, in different forms)",
+    "Progress reported on non-economic items such as grievances, drug policy and gambling rules",
+    "Interest in MLB players at the 2028 Los Angeles Olympics"
+  ],
+  "middle_ground": [
+    {
+      "title": "A floor and a steep tax instead of a hard cap",
+      "how": "Keep a payroll floor, but replace the hard cap with a much steeper luxury tax above a high threshold, with draft-pick and roster penalties for repeat offenders.",
+      "owners_get": "A real spending band: low payrolls rise and top payrolls face penalties strong enough to act like a ceiling.",
+      "players_get": "No hard limit on salaries, so a team can still pay its stars if it accepts the tax.",
+      "precedent": "The NBA's soft cap with tax aprons, which the 2011 NBA lockout settled on after 161 days."
+    },
+    {
+      "title": "Spend what you are shared",
+      "how": "Expand revenue sharing as both sides want, but require clubs that receive it to meet a minimum payroll each year.",
+      "owners_get": "More money moved from big markets to small ones, which they proposed.",
+      "players_get": "Guaranteed spending by low-payroll teams, which addresses their long-standing complaint about clubs pocketing shared revenue.",
+      "precedent": "Spending floors tied to shared revenue in the NFL and NBA systems."
+    },
+    {
+      "title": "A guaranteed share band instead of a 50-50 split",
+      "how": "Guarantee players a share of league revenue within a band, settled with a year-end true-up, without capping individual team payrolls.",
+      "owners_get": "Cost certainty at the league level, the main goal behind the 50-50 proposal.",
+      "players_get": "Protection of their current share, which the union puts at 55 to 56 percent and Manfred puts below 50.",
+      "precedent": "The NBA's revenue-based escrow and true-up system."
+    },
+    {
+      "title": "Phase it in and test it",
+      "how": "Build on MLB's move to delay any cap until 2028: adopt the floor now, and trigger stronger spending limits later only if agreed competitive-balance measures are missed, with an opt-out after three seasons.",
+      "owners_get": "A path to the system they want on the books.",
+      "players_get": "Time, an off-ramp, and limits that only apply if balance actually worsens.",
+      "precedent": "Mid-term opt-outs in recent NBA and NHL agreements."
+    },
+    {
+      "title": "Trade spending limits for young-player pay",
+      "how": "Pair any new spending limits with the union's top asks: a minimum salary near $1.5M, a bigger pre-arbitration bonus pool and earlier free agency.",
+      "owners_get": "Their structural change, paid for mostly by spending at the bottom of the roster.",
+      "players_get": "Raises for the majority of players who earn near the minimum.",
+      "precedent": "The 2022 MLB deal, which ended a 99-day lockout with a higher minimum and a new pre-arbitration bonus pool."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "A",
+      "name": "Quick deal",
+      "odds": 10,
+      "end_window": "January to early February 2027",
+      "end_date": "2027-01-29",
+      "season_impact": "Normal spring training and a full season",
+      "how_it_ends": "Owners set the hard cap aside for a floor plus a much steeper luxury tax, and the union accepts a floor in exchange for a big minimum-salary raise and the free agency changes both sides already back.",
+      "signals": [
+        "Bargaining sessions resume in December",
+        "Either side drops cap or no-cap language from public statements",
+        "Owners stop describing the cap and floor as non-negotiable"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Spring deal, short delay",
+      "odds": 40,
+      "end_window": "Late February to mid-March 2027",
+      "end_date": "2027-03-10",
+      "season_impact": "Shortened spring training; Opening Day may slip a week or two, with games likely made up as in 2022",
+      "how_it_ends": "Pressure builds as spring training is canceled. The sides settle on a soft-cap system: a payroll floor, a high tax threshold with steep penalties that limit spending in practice, and a guaranteed band for the players' share of revenue.",
+      "signals": [
+        "Daily bargaining in February",
+        "MLB postpones spring training games without canceling regular-season dates",
+        "Talk of a soft cap or tax aprons in reporting"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Games lost",
+      "odds": 50,
+      "end_window": "May to June 2027",
+      "end_date": "2027-06-01",
+      "season_impact": "Regular-season games canceled, likely a season of roughly 100 to 120 games",
+      "how_it_ends": "Neither side moves until losses mount and the 60-game point that would extend national TV deals approaches. Either players accept a cap with a high ceiling, a solid floor and large gains elsewhere, as NHL players did after losing 2004-05, or owners settle for a floor and stiff tax after legal pressure such as a union disclaimer of interest.",
+      "signals": [
+        "MLB cancels regular-season games",
+        "The union disclaims interest or files antitrust claims",
+        "Owner unity cracks, or players publicly split on a cap"
+      ]
+    }
+  ],
+  "method": "Our editorial read of the reporting, revised with each update. Odds are judgment, not a forecast model or betting line. Middle-ground options are drawn from each side's reported proposals and from how other leagues and past MLB labor fights were settled."
+}

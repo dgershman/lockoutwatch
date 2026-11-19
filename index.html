@@ -31,7 +31,7 @@
   <meta name="twitter:creator" content="@dannygnc">
   <meta name="twitter:image" content="https://lockoutwatch.com/og.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/assets/style.css?v=202610291250">
+  <link rel="stylesheet" href="/assets/style.css?v=202611190004">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"WebSite","name":"Lockout Watch","url":"https://lockoutwatch.com/","description":"Daily tracker for the 2026-27 baseball labor talks and expected lockout."}
   </script>
@@ -46,6 +46,7 @@
       <div class="topright">
         <nav class="nav" aria-label="Sections">
           <a href="#issues">Issues</a>
+          <a href="#outlook">Outlook</a>
           <a href="#calendar">Dates</a>
           <a href="#timeline">Timeline</a>
           <a href="/about.html">About</a>
@@ -105,7 +106,7 @@
       </div>
       <div class="card" id="money">
         <h2>The money gap</h2>
-        <p class="note">2027 payroll lines each side has proposed, in millions. MLB's cap and floor include player benefits, roughly $23M per team.</p>
+        <p class="note">Payroll lines each side has proposed, in millions. MLB's cap would start in 2028. MLB's cap and floor include player benefits, roughly $23M per team.</p>
         <ul class="legend">
           <li><i class="sw" style="background:var(--mlb)"></i>MLB (owners)</li>
           <li><i class="sw" style="background:var(--mlbpa)"></i>MLBPA (players)</li>
@@ -125,6 +126,35 @@
           <thead><tr><th>Issue</th><th>MLB (owners)</th><th>MLBPA (players)</th><th>Gap</th></tr></thead>
           <tbody id="issues-body"></tbody>
         </table>
+      </div>
+    </section>
+
+    <section class="outlook" id="outlook" aria-label="Outlook">
+      <div class="card">
+        <p class="kicker">Outlook</p>
+        <h2>How it ends: three scenarios</h2>
+        <p class="note" id="outlook-summary"></p>
+        <div class="track" id="outlook-track" aria-hidden="true"></div>
+        <div class="scenarios" id="scenarios"></div>
+        <p class="note" id="outlook-method"></p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h2>Where they already agree</h2>
+          <p class="note">Ground both sides have proposed or reported progress on.</p>
+          <ul class="checks" id="common"></ul>
+        </div>
+        <div class="card">
+          <h2>Our latest read</h2>
+          <p class="note">What changed in our read, and why.</p>
+          <p class="latest" id="outlook-reason"></p>
+          <p class="small">Outlook updated <span id="outlook-asof"></span></p>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Finding a middle ground</h2>
+        <p class="note">Possible compromises on the cap fight, built from each side's proposals and how other leagues settled theirs. These are our ideas, not offers on the table.</p>
+        <div class="middle" id="middle"></div>
       </div>
     </section>
 
@@ -185,7 +215,7 @@
     </div>
   </footer>
 
-  <script src="/assets/app.js?v=202610291250"></script>
+  <script src="/assets/app.js?v=202611190004"></script>
   <script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('[data-cta]');if(a&&typeof gtag==='function')gtag('event','newsletter_click',{location:a.getAttribute('data-cta')});});</script>
 </body>
 </html>

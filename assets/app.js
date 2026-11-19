@@ -211,11 +211,84 @@
     document.body.appendChild(s);
   }
 
+  function utc(s) { var a = parse(s); return a ? Date.UTC(a.y, a.m, a.d) : NaN; }
+  var LOCKOUT_START = '2026-12-02';
+  var SCEN_COLORS = { A: 'var(--ok)', B: 'var(--warn)', C: 'var(--bad)' };
+
+  function renderTrack(box, scenarios) {
+    var t0 = utc(LOCKOUT_START), t1 = utc('2027-07-01');
+    var pos = function (s) { return Math.max(0, Math.min(100, (utc(s) - t0) / (t1 - t0) * 100)); };
+    var line = el('div', 'track-line');
+    var kids = [line];
+    [['2026-12-02', 'Dec'], ['2027-01-01', 'Jan'], ['2027-02-01', 'Feb'], ['2027-03-01', 'Mar'], ['2027-04-01', 'Apr'], ['2027-05-01', 'May'], ['2027-06-01', 'Jun'], ['2027-07-01', 'Jul']].forEach(function (m) {
+      var tk = el('span', 'track-month', m[1]); tk.style.left = pos(m[0]) + '%'; kids.push(tk);
+    });
+    [['2027-02-09', 'Spring training'], ['2027-03-24', 'Opening Day'], ['2027-05-31', '60-game mark']].forEach(function (r) {
+      var ref = el('span', 'track-ref'); ref.style.left = pos(r[0]) + '%';
+      ref.appendChild(el('span', 'track-ref-label', r[1])); kids.push(ref);
+    });
+    scenarios.forEach(function (s) {
+      var mk = el('span', 'track-mark', s.id);
+      mk.style.left = pos(s.end_date) + '%';
+      mk.style.background = SCEN_COLORS[s.id] || 'var(--neutral)';
+      mk.title = s.name + ': ends ' + s.end_window;
+      kids.push(mk);
+    });
+    box.replaceChildren.apply(box, kids);
+  }
+
+  function renderOutlook(o) {
+    var scen = (o.scenarios || []).slice();
+    setText('outlook-summary', o.summary);
+    setText('outlook-method', o.method);
+    setText('outlook-reason', o.updated_reason);
+    setText('outlook-asof', fmtDate(o.as_of));
+    renderTrack($('outlook-track'), scen);
+    var top = scen.reduce(function (m, s) { return (+s.odds || 0) > (+m.odds || 0) ? s : m; }, scen[0] || {});
+    var box = $('scenarios');
+    box.replaceChildren.apply(box, scen.map(function (s) {
+      var c = el('div', 'scen' + (s === top ? ' scen-top' : ''));
+      var color = SCEN_COLORS[s.id] || 'var(--neutral)';
+      var head = el('div', 'scen-head');
+      var badge = el('span', 'scen-badge', s.id); badge.style.background = color;
+      head.append(badge, el('b', null, s.name));
+      if (s === top) head.appendChild(el('span', 'badge', 'Most likely'));
+      var odds = el('div', 'scen-odds');
+      odds.append(el('span', 'scen-pct', (+s.odds || 0) + '%'), el('span', 'small', 'our odds'));
+      var bar = el('div', 'scen-bar'); var fill = el('i'); fill.style.width = Math.max(2, +s.odds || 0) + '%'; fill.style.background = color; bar.appendChild(fill);
+      var days = Math.round((utc(s.end_date) - utc(LOCKOUT_START)) / 86400000) + 1;
+      var dl = el('dl', 'scen-facts');
+      [['Ends', s.end_window], ['Lockout length', isNaN(days) ? '' : 'About ' + days + ' days'], ['The season', s.season_impact]].forEach(function (kv) {
+        if (!kv[1]) return; dl.append(el('dt', null, kv[0]), el('dd', null, kv[1]));
+      });
+      c.append(head, odds, bar, dl, el('p', 'small scen-how', s.how_it_ends));
+      if ((s.signals || []).length) {
+        c.appendChild(el('p', 'scen-sig-h', 'Signs it is happening'));
+        var ul = el('ul', 'scen-sig'); s.signals.forEach(function (x) { ul.appendChild(el('li', null, x)); }); c.appendChild(ul);
+      }
+      return c;
+    }));
+    var common = $('common');
+    common.replaceChildren.apply(common, (o.common_ground || []).map(function (x) { return el('li', null, x); }));
+    var mid = $('middle');
+    mid.replaceChildren.apply(mid, (o.middle_ground || []).map(function (m) {
+      var c = el('div', 'mid');
+      c.append(el('b', null, m.title), el('p', 'small', m.how));
+      var dl = el('dl', 'mid-facts');
+      [['Owners get', m.owners_get, 'var(--mlb)'], ['Players get', m.players_get, 'var(--mlbpa)'], ['Precedent', m.precedent, '']].forEach(function (kv) {
+        if (!kv[1]) return; var dt = el('dt', null, kv[0]); if (kv[2]) dt.style.color = kv[2]; dl.append(dt, el('dd', null, kv[1]));
+      });
+      c.appendChild(dl);
+      return c;
+    }));
+  }
+
   function fail(id) { var n = $(id); if (n) { n.classList.remove('skel'); n.textContent = 'Could not load this section. Try refreshing.'; } }
 
   load('status').then(renderStatus).catch(function () { fail('headline'); });
   load('money').then(renderMoney).catch(function () { fail('payroll'); });
   load('issues').then(renderIssues).catch(function () {});
+  load('outlook').then(renderOutlook).catch(function () { $('outlook').hidden = true; });
   load('key_dates').then(renderDates).catch(function () { fail('dates'); });
   load('timeline').then(function (r) { timelineRows = r; renderTimeline(); }).catch(function () { fail('timeline-list'); });
   load('stoppages').then(renderStoppages).catch(function () { fail('stoppages'); });
