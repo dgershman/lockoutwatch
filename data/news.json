@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-11-18",
+    "outlet": "Boston Globe",
+    "headline": "Manfred ends owners meetings with a cap ultimatum",
+    "summary": "Owners will not move off a cap and floor, Manfred said, while leaving the lockout decision until the last moment and offering to bargain through Thanksgiving.",
+    "url": "https://www.bostonglobe.com/2026/11/18/sports/rob-manfred-mlb-lockout-salary-cap/"
+  },
+  {
+    "date": "2026-11-18",
+    "outlet": "MLB.com",
+    "headline": "Manfred cannot imagine owners ratifying a deal without a cap and floor",
+    "summary": "Details the league's 2028 cap plan and its payroll impact: 12 clubs would need to add a combined $636M to reach the floor, and 8 would need to cut $528M.",
+    "url": "https://www.mlb.com/news/commissioner-rob-manfred-discusses-salary-cap-and-floor-proposals"
+  },
+  {
+    "date": "2026-11-18",
+    "outlet": "OutKick / Fox Sports",
+    "headline": "Manfred and union statements point to a shutdown in two weeks",
+    "summary": "Meyer says the cap would suppress salaries; Manfred says the union must move toward the middle and calls the owners' May offer serious.",
+    "url": "https://www.foxnews.com/outkick-sports/new-statements-rob-manfred-mlbpa-guarantee-baseball-shut-down-indefinitely-two-weeks-ian-miller"
+  },
+  {
     "date": "2026-11-17",
     "outlet": "Boston Globe via RAW CHILI",
     "headline": "Union head Meyer accuses MLB of talking out of both sides of its mouth",
@@ -33,26 +54,5 @@
     "headline": "Bednar, Suzuki, Arozarena among eight players to receive qualifying offers",
     "summary": "Eight free agents got $23.15M offers with an Nov. 17 decision deadline, as a lockout is expected after Dec. 1.",
     "url": "https://www.espn.com/mlb/story/_/id/50361243/mlb-qualifying-offers-bednar-suzuki-arozarena-more"
-  },
-  {
-    "date": "2026-10-29",
-    "outlet": "AP via NY1",
-    "headline": "2027 season threatened as the labor deal nears its Dec. 1 end",
-    "summary": "Recaps both proposals, notes 144 new free agents and a possible spending rush before an expected lockout.",
-    "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/29/mlbs-2027-season-threatened-with-lockout-looming-when-labor-deal-expires-dec-1"
-  },
-  {
-    "date": "2026-10-29",
-    "outlet": "Boston Globe",
-    "headline": "How baseball got to the brink of a lockout",
-    "summary": "A primer on the owners' cap push, the union's revenue-sharing asks and what stands in the way of a normal 2027.",
-    "url": "https://www.bostonglobe.com/2026/10/29/sports/mlb-labor-owners-players/"
-  },
-  {
-    "date": "2026-10-29",
-    "outlet": "Forbes",
-    "headline": "The money behind the owners' willingness to risk a lockout",
-    "summary": "Bankers see a cap as a way to close the franchise value gap with the NFL and NBA, even at the cost of games.",
-    "url": "https://www.forbes.com/sites/hanktucker/2026/10/29/the-billion-dollar-reason-mlb-team-owners-are-willing-to-risk-a-lockout/"
   }
 ]
