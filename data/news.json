@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-19",
+    "outlet": "ClutchPoints",
+    "headline": "Union uses Manfred's own words against his cap pitch",
+    "summary": "The MLBPA contrasted Manfred's 2021 and 2026 claims about the players' share of revenue as the lockout nears.",
+    "url": "https://clutchpoints.com/mlb/mlb-stories/mlb-news-mlbpa-rob-manfred-lockout-inevitable"
+  },
+  {
+    "date": "2026-11-19",
+    "outlet": "MLB Trade Rumors",
+    "headline": "Manfred says MLB will not compromise on a cap and floor",
+    "summary": "A rundown of the commissioner's owners-meetings remarks, including his openness to bargaining through Thanksgiving.",
+    "url": "https://www.mlbtraderumors.com/2026/11/manfred-mlb-will-not-compromise-on-push-for-cap-floor.html"
+  },
+  {
     "date": "2026-11-18",
     "outlet": "Boston Globe",
     "headline": "Manfred ends owners meetings with a cap ultimatum",
@@ -40,19 +54,5 @@
     "headline": "MLB preparing for possible MLBPA disclaimer of interest",
     "summary": "Citing the WSJ, notes owners have readied for the union ending its bargaining role during a lockout; a deal before Dec. 1 is seen as very unlikely.",
     "url": "https://www.mlbtraderumors.com/2026/11/mlb-preparing-for-possibility-that-mlbpa-opts-for-disclaimer-of-interest-during-lockout.html"
-  },
-  {
-    "date": "2026-11-04",
-    "outlet": "AP via MPR News",
-    "headline": "MLB offers to push the salary cap start back to 2028",
-    "summary": "Owners proposed a $258.2M cap and $180.2M floor with 2027 rules unchanged; the union called it a non-starter and no talks are scheduled.",
-    "url": "https://www.mprnews.org/story/2026/11/04/major-league-baseball-proposes-delaying-salary-cap-start-until-2028-in-talks-with-players"
-  },
-  {
-    "date": "2026-11-02",
-    "outlet": "ESPN",
-    "headline": "Bednar, Suzuki, Arozarena among eight players to receive qualifying offers",
-    "summary": "Eight free agents got $23.15M offers with an Nov. 17 decision deadline, as a lockout is expected after Dec. 1.",
-    "url": "https://www.espn.com/mlb/story/_/id/50361243/mlb-qualifying-offers-bednar-suzuki-arozarena-more"
   }
 ]
