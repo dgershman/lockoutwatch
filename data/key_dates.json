@@ -37,7 +37,7 @@
     "event": "Non-tender deadline",
     "note": "Teams decide on arbitration-eligible players",
     "kind": "Offseason",
-    "state": "next"
+    "state": "done"
   },
   {
     "date": "2026-12-01",
@@ -45,7 +45,7 @@
     "event": "CBA expires at 11:59 p.m. ET",
     "note": "The 2022-26 Basic Agreement ends",
     "kind": "Labor",
-    "state": "upcoming"
+    "state": "next"
   },
   {
     "date": "2026-12-02",

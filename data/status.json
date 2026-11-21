@@ -1,17 +1,17 @@
 [
   {
-    "as_of": "2026-11-20",
+    "as_of": "2026-11-21",
     "phase": "Negotiating",
     "phase_detail": "CBA still in force; owners expected to lock out players when it expires",
     "headline": "A day after Manfred said owners will not compromise on a cap and floor, the union hit back publicly and no talks are scheduled, so a lockout after Dec. 1 remains widely expected.",
     "watch_level": 4,
     "watch_label": "Lockout very likely",
-    "days_until_expiry": 11,
+    "days_until_expiry": 10,
     "lockout_day": null,
     "cba_expires": "2026-12-01",
     "latest_date": "2026-11-19",
     "latest": "The players union posted on X contrasting Manfred's 2021 claim that players earn well over 50 percent of revenue with his new claim that a 50-50 split guarantees them 50 percent. No bargaining sessions have been announced since the owners meetings.",
-    "next_milestone": "Non-tender deadline",
-    "next_milestone_date": "2026-11-20"
+    "next_milestone": "CBA expires at 11:59 p.m. ET",
+    "next_milestone_date": "2026-12-01"
   }
 ]
