@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-11-23",
+    "outlet": "Boston Globe (AP)",
+    "headline": "Union counters cap with equal sharing of all media revenue",
+    "summary": "The players proposed pooling media money across all 30 clubs without a cap, as MLB pressed its cap plan and offered a $1 million minimum salary a week before the CBA expires.",
+    "url": "https://www.bostonglobe.com/2026/11/23/sports/mlb-labor-negotiations/"
+  },
+  {
     "date": "2026-11-19",
     "outlet": "ClutchPoints",
     "headline": "Union uses Manfred's own words against his cap pitch",
@@ -47,12 +54,5 @@
     "headline": "MLB owners prepare for major move as lockout countdown enters final days",
     "summary": "Owners meet Nov. 17-19 on labor strategy, with a lockout expected Dec. 2; the union rejects the 2028 cap offer and wants a $1.5M minimum.",
     "url": "https://sports.yahoo.com/articles/mlb-owners-prepare-major-move-010957372.html"
-  },
-  {
-    "date": "2026-11-12",
-    "outlet": "MLB Trade Rumors",
-    "headline": "MLB preparing for possible MLBPA disclaimer of interest",
-    "summary": "Citing the WSJ, notes owners have readied for the union ending its bargaining role during a lockout; a deal before Dec. 1 is seen as very unlikely.",
-    "url": "https://www.mlbtraderumors.com/2026/11/mlb-preparing-for-possibility-that-mlbpa-opts-for-disclaimer-of-interest-during-lockout.html"
   }
 ]
