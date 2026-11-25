@@ -1,6 +1,13 @@
 [
   {
     "date": "2026-11-23",
+    "outlet": "Sports Illustrated",
+    "headline": "Media revenue sharing advances, but only alongside a cap",
+    "summary": "The union said it accepted equal pooling of local media revenue, while stressing that the league ties it to a salary cap it rejects.",
+    "url": "https://www.si.com/mlb/mlbpa-owners-reach-agreement-cba-negotiations-caveat-salary-cap"
+  },
+  {
+    "date": "2026-11-23",
     "outlet": "Boston Globe (AP)",
     "headline": "Union counters cap with equal sharing of all media revenue",
     "summary": "The players proposed pooling media money across all 30 clubs without a cap, as MLB pressed its cap plan and offered a $1 million minimum salary a week before the CBA expires.",
@@ -47,12 +54,5 @@
     "headline": "Union head Meyer accuses MLB of talking out of both sides of its mouth",
     "summary": "Meyer says the league has held firm on a cap since May, disputes the 50-50 revenue pitch and points to progress only on non-economic topics.",
     "url": "https://www.rawchili.com/5154088/"
-  },
-  {
-    "date": "2026-11-17",
-    "outlet": "Yahoo Sports",
-    "headline": "MLB owners prepare for major move as lockout countdown enters final days",
-    "summary": "Owners meet Nov. 17-19 on labor strategy, with a lockout expected Dec. 2; the union rejects the 2028 cap offer and wants a $1.5M minimum.",
-    "url": "https://sports.yahoo.com/articles/mlb-owners-prepare-major-move-010957372.html"
   }
 ]
