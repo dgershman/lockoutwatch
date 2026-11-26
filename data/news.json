@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-25",
+    "outlet": "MLB Trade Rumors",
+    "headline": "MLB files suit against the players' union",
+    "summary": "The league asked a federal court to rule a lockout lawful and set aside its escrow plan, while the union called the filing frivolous and talks stayed stuck on the cap.",
+    "url": "https://www.mlbtraderumors.com/2026/11/mlb-files-suit-against-mlbpa.html"
+  },
+  {
+    "date": "2026-11-25",
+    "outlet": "The Banner",
+    "headline": "MLB sues players' union, asking court to declare lockout is legal",
+    "summary": "Clubs sued the MLBPA and eight player leaders in Manhattan, citing fear of an antitrust fight; the CBA ends Dec. 1 and a lockout is expected right after.",
+    "url": "https://www.thebanner.com/sports/orioles-mlb/mlb-sues-players-union-lockout-WQHZ2UWPW5G5VA67WHMRHBQSXA/"
+  },
+  {
     "date": "2026-11-23",
     "outlet": "Sports Illustrated",
     "headline": "Media revenue sharing advances, but only alongside a cap",
@@ -40,19 +54,5 @@
     "headline": "Manfred cannot imagine owners ratifying a deal without a cap and floor",
     "summary": "Details the league's 2028 cap plan and its payroll impact: 12 clubs would need to add a combined $636M to reach the floor, and 8 would need to cut $528M.",
     "url": "https://www.mlb.com/news/commissioner-rob-manfred-discusses-salary-cap-and-floor-proposals"
-  },
-  {
-    "date": "2026-11-18",
-    "outlet": "OutKick / Fox Sports",
-    "headline": "Manfred and union statements point to a shutdown in two weeks",
-    "summary": "Meyer says the cap would suppress salaries; Manfred says the union must move toward the middle and calls the owners' May offer serious.",
-    "url": "https://www.foxnews.com/outkick-sports/new-statements-rob-manfred-mlbpa-guarantee-baseball-shut-down-indefinitely-two-weeks-ian-miller"
-  },
-  {
-    "date": "2026-11-17",
-    "outlet": "Boston Globe via RAW CHILI",
-    "headline": "Union head Meyer accuses MLB of talking out of both sides of its mouth",
-    "summary": "Meyer says the league has held firm on a cap since May, disputes the 50-50 revenue pitch and points to progress only on non-economic topics.",
-    "url": "https://www.rawchili.com/5154088/"
   }
 ]
