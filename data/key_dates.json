@@ -40,12 +40,20 @@
     "state": "done"
   },
   {
+    "date": "2026-11-29",
+    "end": "",
+    "event": "Bargaining session in Phoenix (tentative)",
+    "note": "Reported as a face-to-face meeting before the deadline; one outlet says Sunday, others say Sunday or Monday",
+    "kind": "Labor",
+    "state": "next"
+  },
+  {
     "date": "2026-12-01",
     "end": "",
     "event": "CBA expires at 11:59 p.m. ET",
     "note": "The 2022-26 Basic Agreement ends",
     "kind": "Labor",
-    "state": "next"
+    "state": "upcoming"
   },
   {
     "date": "2026-12-02",

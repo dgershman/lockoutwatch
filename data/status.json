@@ -1,17 +1,17 @@
 [
   {
-    "as_of": "2026-11-27",
+    "as_of": "2026-11-28",
     "phase": "Negotiating",
     "phase_detail": "CBA still in force; owners expected to lock out players when it expires",
     "headline": "Four days before the CBA expires, MLB sued the union in federal court to head off a legal challenge to its expected lockout, while the sides stay far apart on a salary cap.",
     "watch_level": 4,
     "watch_label": "Lockout very likely",
-    "days_until_expiry": 4,
+    "days_until_expiry": 3,
     "lockout_day": null,
     "cba_expires": "2026-12-01",
     "latest_date": "2026-11-25",
     "latest": "MLB and its 30 clubs sued the MLBPA and eight player leaders in Manhattan federal court, seeking a ruling that a lockout is legal; the union called the suit frivolous. MLB also dropped its escrow idea in favor of adjusting the cap in later years, which the union says takes the same money.",
-    "next_milestone": "CBA expires at 11:59 p.m. ET",
-    "next_milestone_date": "2026-12-01"
+    "next_milestone": "Reported bargaining session in Phoenix (tentative)",
+    "next_milestone_date": "2026-11-29"
   }
 ]

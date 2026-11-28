@@ -1,6 +1,13 @@
 [
   {
     "date": "2026-11-25",
+    "outlet": "Yahoo Sports",
+    "headline": "Lockout talks show some signs of life despite cap fight",
+    "summary": "Both sides keep talking and hardening positions on the cap and floor, with MLB offering a higher minimum and no escrow while the union rejects the rest.",
+    "url": "https://sports.yahoo.com/mlb/articles/mlb-lockout-talks-show-encouraging-153000815.html"
+  },
+  {
+    "date": "2026-11-25",
     "outlet": "MLB Trade Rumors",
     "headline": "MLB files suit against the players' union",
     "summary": "The league asked a federal court to rule a lockout lawful and set aside its escrow plan, while the union called the filing frivolous and talks stayed stuck on the cap.",
@@ -47,12 +54,5 @@
     "headline": "Manfred ends owners meetings with a cap ultimatum",
     "summary": "Owners will not move off a cap and floor, Manfred said, while leaving the lockout decision until the last moment and offering to bargain through Thanksgiving.",
     "url": "https://www.bostonglobe.com/2026/11/18/sports/rob-manfred-mlb-lockout-salary-cap/"
-  },
-  {
-    "date": "2026-11-18",
-    "outlet": "MLB.com",
-    "headline": "Manfred cannot imagine owners ratifying a deal without a cap and floor",
-    "summary": "Details the league's 2028 cap plan and its payroll impact: 12 clubs would need to add a combined $636M to reach the floor, and 8 would need to cut $528M.",
-    "url": "https://www.mlb.com/news/commissioner-rob-manfred-discusses-salary-cap-and-floor-proposals"
   }
 ]
